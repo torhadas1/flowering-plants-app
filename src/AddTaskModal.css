@@ -1,0 +1,84 @@
+/* AddTaskModal.css */
+
+/* Modal styles */
+.modal {
+    display: block; 
+    position: fixed; 
+    z-index: 2; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); /* Dark background with opacity */
+  }
+  
+  .modal-content {
+    background-color: #fff; /* White background for the modal content */
+    margin: 10% auto; 
+    padding: 10px 20px;
+    position: relative;
+    border: 1px solid #ddd;
+    width: 80%;
+    max-width: 500px; 
+    border-radius: 8px;
+  }
+  
+  .close-button {
+    color: #aaa;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: black;
+    cursor: pointer;
+  }
+  
+  .modal-body {
+    margin-bottom: 20px;
+  }
+  
+  .modal-body div {
+    margin-bottom: 10px;
+  }
+  
+  .modal-body label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .modal-body textarea {
+    width: 100%;
+    height: 80px;
+  }
+  
+  .modal-body select {
+    width: 100%;
+  }
+  
+  .modal button {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .modal button:hover {
+    background-color: #3e8e41;
+  }
+  

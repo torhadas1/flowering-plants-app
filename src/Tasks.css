@@ -1,0 +1,105 @@
+/* Tasks.css */
+
+.tasks-page {
+    max-width: 768px; /* Adjust for typical mobile screen width */
+    margin: 20px auto; /* Center the content */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .tasks-page h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .tasks-actions {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .tasks-actions button {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .tasks-actions button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .tasks-filters {
+    margin-bottom: 10px;
+    display: inline-flex;
+    
+    }
+  
+  .tasks-filters div {
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+  .tasks-filters label {
+    font-weight: 500;
+  }
+  .tasks-filters select {
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -2px #9098A9
+  }
+  
+  
+  .tasks-selected-actions {
+    margin-bottom: 10px;
+  }
+  
+  .tasks-selected-actions button {
+    background-color: #007bff; /* Blue background */
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .tasks-selected-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .tasks-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10px;
+  }
+  
+  .tasks-table th, .tasks-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tasks-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .tasks-table tr:nth-child(even){
+    background-color: #f9f9f9;
+  }
+  
+  .tasks-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
