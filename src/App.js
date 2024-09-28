@@ -4,7 +4,7 @@ import Menu from './menu.js'; // Import your Menu component
 import './App.css'; // Import your CSS file 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { BrowserRouter, Routes, Route  } from 'react-router-dom';
+import { HashRouter , Routes, Route  } from 'react-router-dom';
 import Tasks from './Tasks'; // Import Tasks component
 
 function App() {
@@ -87,7 +87,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     
       <div className="App">
         <header className="app-header"> {/* Add the header */}
@@ -148,7 +148,7 @@ function App() {
           <Route path="/tasks" element={<Tasks />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
