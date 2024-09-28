@@ -91,7 +91,7 @@ function App() {
     
       <div className="App">
         <header className="app-header"> {/* Add the header */}
-          <img src="/logo.jpg" alt="Logo" className="app-logo" /> {/* Add your logo image */}
+          <img src="/flowering-plants-app/logo.jpg" alt="Logo" className="app-logo" /> {/* Add your logo image */}
           <div className="menu-icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <FontAwesomeIcon icon={faBars} />
           </div>
